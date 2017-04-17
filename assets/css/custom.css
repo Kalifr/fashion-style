@@ -1,0 +1,197 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #464646;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Vidaloka', serif;
+}
+a{
+	color: #000;
+}
+a:hover{
+	color: #7F7E7E;
+}
+footer{
+	//background: #000;
+	
+	color: #7F7E7E;
+}
+footer ul{
+	list-style: none;
+	padding-left: 0; 
+}
+footer ul li{
+	margin-bottom: 5px;
+}
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+   }
+
+ .navbar-nav li{
+      float: none;
+      display: inline-block;
+ }
+ #hero{
+ 	background: url('../images/black-woman-smiling.jpg');
+	background-size: cover;
+	padding: 250px 0;
+	margin-bottom: 100px;
+ }
+ #hero h1, #hero-page h1{
+ 	color: #fff;
+ 	font-weight: 600;
+ 	font-size: 3em;
+ }
+ #hero-page{
+ 	padding: 80px;
+ 	background: url('../images/black-woman-smiling2.jpg');
+	background-size: cover;
+	margin-bottom: 100px;
+ }
+ .form-control, .btn{
+ 	border-radius: 0;
+ }
+ .post-excerpt, .post-thumbnail{
+ 	//max-height: 300px;
+ }
+ .post-thumbnail a img{
+ 	//height: 100%;
+ }
+ .post-excerpt h1{
+ 	margin-top: 0;
+ }
+ .post-meta{
+ 	margin-bottom: 10px;
+ 	display: block;
+ 	color: darkgray;
+ }
+ .single-post-meta .post-meta span{
+	display: block;
+	text-decoration: italic;
+}
+.single-post-meta{
+	margin-top: 150px;
+ }
+ .meta-entry{
+ 	margin-right: 10px;
+ }
+ .post-excerpt{
+ 	margin-bottom: 120px;
+ }
+ #footer-upper{
+ 	background: #464646;
+ 	padding: 50px 0;
+ } 
+ #footer-upper a:hover{
+ 	//color: #fff;
+ }
+
+ #footer-lower{
+ 	padding-top: 20px;
+ 	background: #000000;
+ }
+ #footer-lower a{
+ 	color: #fff;
+ }
+
+/*----------  Tag cloud css  ----------*/
+.tagcloud04 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tagcloud04 ul li {
+	position: relative;
+	display: inline-block;
+	margin: 0 .75em .5em 0;
+	padding: 0;
+}
+.tagcloud04 ul li a {
+	position: relative;
+	display: inline-block;
+	max-width: 100px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 1em;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	word-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #333;
+	font-size: 13px;
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+.tagcloud04 ul li span {
+	position: absolute;
+	top: 0;
+	right: -10px;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #000;
+	border: 1px solid #000;
+	border-radius: 100%;
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .2s;
+	transition: .2s;
+	-webkit-transform: scale(.4);
+	transform: scale(.4);
+}
+.tagcloud04 ul li span::after {
+	position: absolute;
+	top: 50%;
+	left: -8px;
+	content: '';
+	width: 0;
+	height: 0;
+	margin-top: -7px;
+	border-color: transparent #000 transparent transparent;
+	border-style: solid;
+	border-width: 7px 14px 7px 0;
+}
+.tagcloud04 ul li a:hover {
+	border: 1px solid #000;
+	color: #000;
+}
+.tagcloud04 ul li:hover span {
+	right: -26px;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.social-icons li{
+	display: inline-block;
+	//font-size: 1.5em;
+}
+.social-icons li a{
+	color: #fff;
+	//line-height: 30px;
+}
+.social-icons a{
+	border: solid 1px #fff;
+	display: block;
+	padding: 2px;
+	width: 40px;
+	height: 40px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 50%
+}
+
+#contact-form .form-control{
+	margin-bottom: 10px;
+}
