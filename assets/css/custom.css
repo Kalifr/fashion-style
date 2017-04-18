@@ -23,6 +23,9 @@ footer ul{
 footer ul li{
 	margin-bottom: 5px;
 }
+img{
+	max-width: 100%;
+}
 .navbar{
 	border-radius: 0;
 	margin-bottom: 0;
